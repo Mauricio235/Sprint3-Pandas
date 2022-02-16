@@ -16,4 +16,4 @@ tipos_de_dados.columns.name = "Variáveis"
 tipos_de_dados
 
 dados.shape
-print("A base de dados apresenta {} regitros (imoveis) e {} variáveis.".format(dados.shape[0], dados.shape[1]))
+print("A base de dados apresenta {} regitros (imóveis) e {} variáveis.".format(dados.shape[0], dados.shape[1]))
