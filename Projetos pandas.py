@@ -25,4 +25,6 @@ type(tipos_de_imovel)
 # Removendo duplicadas
 tipos_de_imovel.drop_duplicates(inplace = True)
 
+tipos_de_imovel = pd.DataFrame(tipos_de_imovel)
+tipos_de_imovel.index = range(tipos_de_imovel.shape[0])
 
