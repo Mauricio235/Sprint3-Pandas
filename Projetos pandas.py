@@ -17,3 +17,12 @@ tipos_de_dados
 
 dados.shape
 print("A base de dados apresenta {} regitros (imóveis) e {} variáveis.".format(dados.shape[0], dados.shape[1]))
+
+tipos_de_imovel = dados["Tipo"]
+
+type(tipos_de_imovel)
+
+# Removendo duplicadas
+tipos_de_imovel.drop_duplicates(inplace = True)
+
+
